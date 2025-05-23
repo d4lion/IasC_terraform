@@ -1,0 +1,19 @@
+# Archivos y carpetas generados por Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Si usas terraform.tfvars para variables sensibles
+terraform.tfvars
+*.tfvars
+
+# Archivos de salida o logs
+*.log
+
+# Archivos del sistema operativo/editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
